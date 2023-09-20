@@ -1,7 +1,18 @@
 import React from 'react';
 
+import Game from '../Game';
+import Header from '../Header';
+
 function App() {
-  return <h1>Word Game</h1>;
+  return (
+    <div className="wrapper">
+      <Header />
+
+      <div className="game-wrapper">
+        <Game />
+      </div>
+    </div>
+  );
 }
 
 export default App;
