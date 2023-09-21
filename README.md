@@ -9,6 +9,8 @@ built with React.
 
 You can check the fully-working demo at [word-game.juliofortunato.dev](https://word-game.juliofortunato.dev).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c32844f-c0ff-4182-bf11-07a13e64fb9a/deploy-status)](https://app.netlify.com/sites/effervescent-swan-26ecf2/deploys)
+
 ## How to play
 The goal of the game is to figure out a randomly-choosed specific word in six 
 guesses or fewer.
