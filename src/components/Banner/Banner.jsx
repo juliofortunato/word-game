@@ -1,10 +1,12 @@
 import React from 'react';
 
-function Banner({ status, action, actionText, children }) {
+function Banner({
+  status, action, actionText, children,
+}) {
   return (
     <div className={`${status} banner`}>
       {children}
-      {action && <button onClick={action}>{actionText}</button>}
+      {action && <button type="button" onClick={action}>{actionText}</button>}
     </div>
   );
 }

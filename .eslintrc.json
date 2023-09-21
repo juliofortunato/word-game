@@ -9,8 +9,15 @@
     "sourceType": "module"
   },
   "rules": {
-    "react/prop-types": "off",
+    "import/export": "off",
+    "import/prefer-default-export": "off",
+    "no-continue": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-restricted-exports": "off",
     "react/jsx-no-bind": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-array-index-key": "off",
+    "react/prop-types": "off"
   }
 }
