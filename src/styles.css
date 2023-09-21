@@ -176,11 +176,11 @@ html {
     will-change: transform;
   }
   
-  .happy.banner {
+  .success.banner {
     background: var(--color-success);
     color: white;
   }
-  .sad.banner {
+  .fail.banner {
     background: var(--color-error);
     color: white;
   }
